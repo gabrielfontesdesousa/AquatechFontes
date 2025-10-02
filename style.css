@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 06px solid aqua;
+}
+.logo{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    color: #00adad;
+    font-size: 35px;
+}
+.header-container{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-section{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-section ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-section ul li a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.container-login{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 150px);
+    background-image: url('./bg-jelly-fish-para-home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    width: 40%;
+    height: 40%;
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-login-box{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 90%;
+    align-content:space-between
+}
+.input-box input{
+    border: 2px solid aqua;
+    border-radius: 15px;
+    height: 35px;
+}
+.sub-login-box button{
+    width: 30%;
+    background-color: #ff4765;
+    color: white;
+    height: 70px;
+    border: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.sub-login-box label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff4765;
+    font-size: 15px;
+}
+.sub-login-box h1{
+    font-size: 34px;
+    color: #ff4765;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-login-box input::placeholder{
+    text-align: center; 
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #00adad;
+}
